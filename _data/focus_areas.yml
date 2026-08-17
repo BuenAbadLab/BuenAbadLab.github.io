@@ -1,0 +1,18 @@
+- title: "RNA splicing & unproductive transcripts"
+  description: >
+    We study how alternative splicing generates unproductive, NMD-targeted
+    transcripts, and how this "unproductive splicing" shapes gene expression
+    and links genetic variation to complex traits and disease.
+
+- title: "Single-cell & multi-omics"
+  description: >
+    We develop statistical methods to detect cell-state-associated splicing
+    and coregulation from single-cell data, and to integrate transcriptomic,
+    genomic, and epigenomic data across scales.
+
+- title: "Statistical genomics & method development"
+  description: >
+    We build reference-free, annotation-light computational tools — from
+    splice-junction analysis to matrix factorization — to uncover novel
+    transcript structures in large-scale RNA-seq and population genomic
+    datasets.

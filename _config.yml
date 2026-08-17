@@ -1,0 +1,36 @@
+# Site settings
+title: BuenAbad Lab
+short_title: BuenAbad Lab
+description: >-
+  Computational RNA biology, genomics, and multi-omics research at the
+  Clemson University Institute for Human Genetics.
+email: cfbuenabadnajar@gmail.com
+baseurl: ""
+url: "https://buenabadlab.github.io"
+
+# Lab / institutional info
+pi_name: "Carlos F. Buen Abad Najar, PhD"
+institute: "Clemson University Institute for Human Genetics"
+department: "Department of Genetics and Biochemistry"
+location: "Greenwood, SC"
+
+# Social / profile links
+github_username: BuenAbadLab
+pi_github: cfbuenabadn
+twitter_username: cfbuenabad
+scholar_url: "https://scholar.google.com/citations?user=PWFEnmQAAAAJ&hl=en&oi=ao"
+orcid_url: "https://orcid.org/0009-0000-4246-5154"
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+
+header_pages:
+  - index.md
+  - research.md
+  - team.md
+  - publications.md
+
+exclude:
+  - README.md

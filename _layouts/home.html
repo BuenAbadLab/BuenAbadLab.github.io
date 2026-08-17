@@ -1,0 +1,47 @@
+---
+layout: default
+---
+
+<section class="hero">
+  <p class="hero-eyebrow">{{ site.institute }} &middot; {{ site.location }}</p>
+  <h1 class="hero-title">{{ site.title }}</h1>
+  <p class="hero-tagline">Computational RNA biology &middot; Genomics &middot; Multi-omics</p>
+  <div class="hero-body">
+    {{ content }}
+  </div>
+  <div class="hero-cta">
+    <a class="btn btn--primary" href="{{ "/research/" | relative_url }}">Explore our research</a>
+    <a class="btn btn--ghost" href="{{ "/team/" | relative_url }}">Meet the team</a>
+  </div>
+</section>
+
+<section class="section">
+  <h2 class="section-title">Research focus</h2>
+  <div class="focus-grid">
+    {%- for area in site.data.focus_areas -%}
+    <div class="focus-card">
+      <h3>{{ area.title }}</h3>
+      <p>{{ area.description }}</p>
+    </div>
+    {%- endfor -%}
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-header-row">
+    <h2 class="section-title">Recent highlights</h2>
+    <a class="section-link" href="{{ "/research/" | relative_url }}">See all research &rarr;</a>
+  </div>
+  <div class="pub-grid pub-grid--compact">
+    {%- assign recent = site.data.publications | slice: 0, 3 -%}
+    {%- for pub in recent -%}
+    <a class="pub-card pub-card--compact" href="{{ "/research/" | relative_url }}">
+      <div class="pub-card__image" style="background-image:url('{{ pub.image | relative_url }}');"></div>
+      <div class="pub-card__body">
+        <span class="pub-card__venue">{{ pub.venue }}, {{ pub.year }}</span>
+        <h3 class="pub-card__title">{{ pub.title }}</h3>
+      </div>
+    </a>
+    {%- endfor -%}
+  </div>
+</section>

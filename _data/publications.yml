@@ -1,0 +1,71 @@
+# Reverse-chronological. Used by /research/ (full cards) and /publications/ (list).
+- title: "Genetic and functional mapping of alternative splicing using LeafCutter2"
+  authors: "Buen Abad Najar CF*, Feng R*, Dai C*, Fair BJ, Hauck Q, Li J, Liu X, Wang G^, Li YI^"
+  notes: "* equal contribution. ^ co-corresponding authors."
+  venue: "bioRxiv"
+  year: 2025
+  image: /images/leafcutter2.png
+  preprint: "https://doi.org/10.1101/2025.04.06.646893"
+  code: "https://github.com/cfbuenabadn/leafcutter2/"
+  description: >
+    LeafCutter2 enables identification and quantification of unproductive
+    (NMD-associated) splicing from short-read RNA-seq data. Applying it across
+    human tissues and non-human animals reveals a broad landscape of
+    unproductive splicing, and analysis of data from the AD Functional
+    Genomics (FunGen-xQTL) consortium uncovers novel associations between
+    unproductive splicing and Alzheimer's disease risk.
+
+- title: "Reference-free analysis of mRNA isoform variation in large-scale RNA-seq datasets"
+  authors: "Buen Abad Najar CF, Xie D, Carbonetto P, Feng R, Wang G, Stephens M^, Li YI^"
+  notes: "^ co-corresponding authors."
+  venue: "In preparation"
+  year: 2024
+  image: /images/SRSF3.factors_10.png
+  preprint: "/pdfs/torino-preprint.pdf"
+  description: >
+    Torino combines a matrix factorization approach with splice-junction
+    analysis to uncover the main structures underlying the transcriptome
+    without relying on annotations. Torino finds thousands of novel
+    transcript structures relevant to complex disease, including cryptic
+    splicing, intron retention, and alternative polyadenylation.
+
+- title: "Global impact of unproductive splicing on human gene expression"
+  authors: "Fair BJ*, Buen Abad Najar CF*, Zhao J, Lozano S, Reilly A, Mossian G, Staley JP, Wang J, Li YI"
+  notes: "* equal contribution."
+  venue: "Nature Genetics"
+  year: 2024
+  image: /images/unprod.png
+  paper: "https://www.nature.com/articles/s41588-024-01872-x"
+  description: >
+    Alternative splicing leading to NMD-targeted mRNAs is widespread across
+    the transcriptome. This unproductive splicing impacts gene expression
+    levels and is an important link between genetic variants, eQTLs, and
+    complex traits.
+
+- title: "Identifying cell state–associated alternative splicing events and their coregulation"
+  authors: "Buen Abad Najar CF, Burra P, Yosef N^, Lareau LF^"
+  notes: "^ co-corresponding authors."
+  venue: "Genome Research"
+  year: 2022
+  image: /images/psix.png
+  paper: "https://genome.cshlp.org/content/32/7/1385.short"
+  code: "https://github.com/lareaulab/psix"
+  description: >
+    Psix finds patterns of alternative splicing and splicing coregulation
+    across a phenotypic landscape of single cells, revealing modules of
+    co-regulated exons linked to cell state.
+
+- title: "Coverage-dependent bias creates the appearance of binary splicing in single cells"
+  authors: "Buen Abad Najar CF, Yosef N^, Lareau LF^"
+  notes: "^ co-corresponding authors."
+  venue: "eLife"
+  year: 2020
+  image: /images/sc-splicing.png
+  paper: "https://elifesciences.org/articles/54603"
+  code: "https://github.com/lareaulab/sc_binary_splicing"
+  description: >
+    Previous studies reported that single-cell alternative splicing is
+    binary: most cells produce either one isoform or the other, but rarely
+    both. We found that the low capture efficiency of scRNA-seq accounts for
+    most of this pattern — in reality, single cells produce multiple
+    isoforms from the same gene, but most are missed experimentally.

@@ -1,0 +1,17 @@
+<footer class="site-footer">
+  <div class="wrapper">
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <p class="footer-heading">{{ site.title }}</p>
+        <p>{{ site.institute }}<br>{{ site.department }}<br>{{ site.location }}</p>
+        {%- if site.email -%}
+        <p><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+        {%- endif -%}
+      </div>
+
+      <div class="footer-col footer-col-2">
+        {%- include social.html -%}
+      </div>
+    </div>
+  </div>
+</footer>

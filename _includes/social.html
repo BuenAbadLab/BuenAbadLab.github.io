@@ -1,0 +1,6 @@
+<ul class="social-media-list">
+  {%- if site.pi_github -%}<li><a href="https://github.com/{{ site.pi_github | cgi_escape | escape }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}"></use></svg> <span class="username">GitHub</span></a></li>{%- endif -%}
+  {%- if site.scholar_url -%}<li><a href="{{ site.scholar_url }}"><span class="username">Google Scholar</span></a></li>{%- endif -%}
+  {%- if site.orcid_url -%}<li><a href="{{ site.orcid_url }}"><span class="username">ORCID</span></a></li>{%- endif -%}
+  {%- if site.twitter_username -%}<li><a href="https://www.twitter.com/{{ site.twitter_username | cgi_escape | escape }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#twitter' | relative_url }}"></use></svg> <span class="username">{{ site.twitter_username | escape }}</span></a></li>{%- endif -%}
+</ul>
