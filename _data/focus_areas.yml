@@ -1,7 +1,7 @@
 - title: "RNA splicing & unproductive transcripts"
   description: >
-    We study how alternative splicing generates unproductive, NMD-targeted
-    transcripts, and how this "unproductive splicing" shapes gene expression
+    An often overlooked aspect of alternative splicing is the generation of defective transcripts that 
+    are degraded through nonsense mediated decay (NMD). This "unproductive splicing" shapes gene expression
     and links genetic variation to complex traits and disease.
 
 - title: "Single-cell & multi-omics"
@@ -12,7 +12,5 @@
 
 - title: "Statistical genomics & method development"
   description: >
-    We build reference-free, annotation-light computational tools — from
-    splice-junction analysis to matrix factorization — to uncover novel
-    transcript structures in large-scale RNA-seq and population genomic
-    datasets.
+    We build reference-free, interpretable computational models to uncover novel
+    transcript structures in large-scale RNA-seq and multi-omics datasets.
