@@ -31,12 +31,16 @@ h1, h2, h3, h4,
   font-family: "Source Serif 4", Georgia, "Times New Roman", serif;
 }
 
+// muted, plain hyperlink style — color is reserved for the lab title and
+// affiliation lines only, not general links
 a {
-  color: var(--purple);
-  text-decoration: none;
+  color: var(--ink);
+  text-decoration: underline;
+  text-decoration-color: var(--line);
+  text-underline-offset: 2px;
 }
 a:hover {
-  text-decoration: underline;
+  text-decoration-color: var(--ink);
 }
 
 // ---------- Header ----------
@@ -51,11 +55,12 @@ a:hover {
   min-height: 60px;
 }
 .site-brand {
-  color: var(--ink);
+  color: var(--purple);
   font-weight: 700;
+  text-decoration: none;
 }
 .site-brand:hover {
-  color: var(--ink);
+  color: var(--purple);
   text-decoration: none;
 }
 .site-brand__name {
@@ -70,12 +75,13 @@ a:hover {
   font-size: 15px;
   padding-bottom: 4px;
   border-bottom: 2px solid transparent;
+  text-decoration: none;
 }
 .site-nav .page-link:hover,
 .site-nav .page-link--active {
   color: var(--ink);
   text-decoration: none;
-  border-bottom-color: var(--purple);
+  border-bottom-color: var(--ink);
 }
 .site-nav .nav-trigger {
   display: none;
@@ -119,9 +125,12 @@ a:hover {
   color: var(--ink);
 }
 .footer-heading {
-  color: var(--ink);
+  color: var(--purple);
   font-weight: 700;
   margin-bottom: 6px;
+}
+.footer-affiliation {
+  color: var(--orange);
 }
 .site-footer .social-media-list {
   list-style: none;
@@ -148,14 +157,14 @@ a:hover {
   letter-spacing: 0.07em;
   font-size: 13px;
   font-weight: 600;
-  color: var(--ink-soft);
+  color: var(--orange);
   margin: 0 0 10px;
 }
 .hero-title {
   font-size: 40px;
   line-height: 1.15;
   margin: 0 0 8px;
-  color: var(--ink);
+  color: var(--purple);
 }
 .hero-tagline {
   font-size: 18px;
@@ -181,6 +190,7 @@ a:hover {
   font-weight: 600;
   font-size: 15px;
   border: 1.5px solid var(--ink);
+  text-decoration: none;
 }
 .btn:hover {
   text-decoration: none;
@@ -341,6 +351,7 @@ a:hover {
 .pub-card--compact {
   grid-template-columns: 1fr;
   color: var(--ink);
+  text-decoration: none;
 }
 .pub-card--compact:hover {
   border-color: var(--ink-soft);
@@ -424,7 +435,7 @@ a:hover {
   margin-top: 18px;
   padding: 14px 16px;
   background: var(--bg-soft);
-  border-left: 2px solid var(--purple);
+  border-left: 2px solid var(--line);
   border-radius: 4px;
   font-size: 14px;
 }
