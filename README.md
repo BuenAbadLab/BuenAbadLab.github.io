@@ -1,8 +1,6 @@
 # BuenAbadLab.github.io
 
-Website for the BuenAbad Lab — computational RNA biology, genomics, and
-multi-omics research at the Clemson University Institute for Human Genetics,
-Greenwood, SC (Department of Genetics and Biochemistry).
+Welcome to the Buen Abad lab. We are a computational RNA biology, team working in genomics, multi-omics, and RNA biology at the Clemson University Institute for Human Genetics.
 
 Built with [Jekyll](https://jekyllrb.com/) and the [minima](https://github.com/jekyll/minima)
 theme. To run locally:

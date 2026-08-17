@@ -1,10 +1,10 @@
 # Site settings
-title: BuenAbad Lab
-short_title: BuenAbad Lab
+title: Buen Abad Lab
+short_title: Buen Abad Lab
 description: >-
   Computational RNA biology, genomics, and multi-omics research at the
   Clemson University Institute for Human Genetics.
-email: cfbuenabadnajar@gmail.com
+email: cbuenab@clemson.edu
 baseurl: ""
 url: "https://buenabadlab.github.io"
 

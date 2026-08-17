@@ -3,7 +3,7 @@ layout: page
 title: Research
 permalink: /research/
 ---
-Research in the BuenAbad Lab centers on computational RNA biology, genomics, and multi-omics — understanding how RNA splicing and other post-transcriptional processes shape gene expression, and how this connects genetic variation to human disease. We develop statistical and computational methods, spanning single-cell to population-scale data, and apply them to uncover the regulatory logic of the transcriptome.
+We seek to understand how alternative splicing and other post-transcriptional RNA processes shape gene expression, and how this mediates genetic variation to human disease. We develop statistical and computational methods, spanning single-cell to population-scale data, and apply them to uncover the regulatory logic of the transcriptome.
 
 Below are highlights from our published and ongoing work.
 
