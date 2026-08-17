@@ -55,12 +55,12 @@ a:hover {
   min-height: 60px;
 }
 .site-brand {
-  color: var(--ink);
+  color: var(--purple);
   font-weight: 700;
   text-decoration: none;
 }
 .site-brand:hover {
-  color: var(--ink);
+  color: var(--orange);
   text-decoration: none;
 }
 .site-brand__name {
@@ -196,20 +196,23 @@ a:hover {
   text-decoration: none;
 }
 .btn--primary {
-  background: var(--ink);
+  background: var(--purple);
+  border-color: var(--purple);
   color: #fff;
 }
 .btn--primary:hover {
-  background: #000;
+  background: #3c1f5e;
+  border-color: #3c1f5e;
   color: #fff;
 }
 .btn--ghost {
-  background: transparent;
-  color: var(--ink);
-  border-color: var(--line);
+  background: #fff;
+  color: var(--purple);
+  border-color: var(--purple);
 }
 .btn--ghost:hover {
-  border-color: var(--ink);
+  border-color: #3c1f5e;
+  color: #3c1f5e;
 }
 
 // ---------- Section ----------
