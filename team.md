@@ -30,8 +30,10 @@ permalink: /team/
       people cite my papers. If you do, please keep in mind that my full last
       name is <strong>Buen Abad Najar</strong>, not just Najar. The correct
       usage of my name is <strong>Buen Abad Najar, C.F.</strong>; not Najar,
-      C.F.B.A. For informal purposes, you can abbreviate my last name to <strong>Buen Abad</strong>. 
-      Please do not abbreviate as just "Buen" or to "Najar".
+      C.F.B.A. 
+
+      For informal purposes, you can abbreviate my last name to <strong>Buen Abad</strong>. 
+      Please do not abbreviate to "Buen" or to "Najar".
     </p>
   </div>
 </div>
