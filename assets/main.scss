@@ -39,6 +39,11 @@ a {
   text-decoration-color: var(--line);
   text-underline-offset: 2px;
 }
+// overrides minima's a:visited (darkened brand blue), which otherwise wins
+// on specificity over plain single-class color rules below
+a:visited {
+  color: var(--ink);
+}
 a:hover {
   text-decoration-color: var(--ink);
 }
@@ -54,7 +59,8 @@ a:hover {
   justify-content: space-between;
   min-height: 60px;
 }
-.site-brand {
+.site-brand,
+.site-brand:visited {
   color: var(--purple);
   font-weight: 700;
   text-decoration: none;
@@ -195,7 +201,8 @@ a:hover {
 .btn:hover {
   text-decoration: none;
 }
-.btn--primary {
+.btn--primary,
+.btn--primary:visited {
   background: var(--purple);
   border-color: var(--purple);
   color: #fff;
@@ -205,7 +212,8 @@ a:hover {
   border-color: #3c1f5e;
   color: #fff;
 }
-.btn--ghost {
+.btn--ghost,
+.btn--ghost:visited {
   background: #fff;
   color: var(--purple);
   border-color: var(--purple);

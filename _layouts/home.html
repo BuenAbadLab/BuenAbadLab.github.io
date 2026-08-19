@@ -10,7 +10,7 @@ layout: default
     {{ content }}
   </div>
   <div class="hero-cta">
-    <a class="btn btn--primary" href="{{ "/research/" | relative_url }}">Explore our research</a>
+    <a class="btn btn--primary" href="{{ "/publications/" | relative_url }}">Explore our research</a>
     <a class="btn btn--ghost" href="{{ "/team/" | relative_url }}">Meet the team</a>
   </div>
 </section>
@@ -30,12 +30,12 @@ layout: default
 <section class="section">
   <div class="section-header-row">
     <h2 class="section-title">Recent highlights</h2>
-    <a class="section-link" href="{{ "/research/" | relative_url }}">See all research &rarr;</a>
+    <a class="section-link" href="{{ "/publications/" | relative_url }}">See all research &rarr;</a>
   </div>
   <div class="pub-grid pub-grid--compact">
     {%- assign recent = site.data.publications | slice: 0, 3 -%}
     {%- for pub in recent -%}
-    <a class="pub-card pub-card--compact" href="{{ "/research/" | relative_url }}">
+    <a class="pub-card pub-card--compact" href="{{ "/publications/" | relative_url }}">
       <div class="pub-card__image" style="background-image:url('{{ pub.image | relative_url }}');"></div>
       <div class="pub-card__body">
         <span class="pub-card__venue">{{ pub.venue }}, {{ pub.year }}</span>

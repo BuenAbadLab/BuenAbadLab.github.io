@@ -28,7 +28,6 @@ plugins:
 
 header_pages:
   - index.md
-  - research.md
   - team.md
   - publications.md
 

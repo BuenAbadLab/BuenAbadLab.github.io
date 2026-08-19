@@ -15,8 +15,7 @@ Then visit `http://localhost:4000`.
 ## Structure
 
 - `index.md` — landing page (research summary)
-- `research.md` — research highlights / paper descriptions
 - `team.md` — lab team / PI profile
-- `publications.md` — full publication list
+- `publications.md` — research highlights / paper descriptions (was split into separate Research and Publications pages; merged back into one until there's a general-directions research page to split out again)
 - `_data/publications.yml` — publication data used across pages
 - `_data/focus_areas.yml` — research focus blurbs on the home page
