@@ -30,7 +30,7 @@ Below are highlights from our published and ongoing work.
   <strong>About my name:</strong> I am always grateful to see people cite my papers!
   If you do, please note that <strong>Buen Abad</strong> is part of a compound surname (not a middle name),
   so the correct citation format is <strong>Buen Abad Najar, C.F.</strong> Reference managers often
-  split it incorrectly into Najar, C.F.B.A. Please consider correcting this if you notice it.
+  writes it incorrectly into Najar, C.F.B.A. Please consider correcting this if you notice it.
 </p>
 <p class="profile__note">
   For informal purposes, you can abbreviate my name to Carlos <strong>Buen Abad</strong>.
